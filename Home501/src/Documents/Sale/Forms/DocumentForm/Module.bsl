@@ -1,3 +1,14 @@
+
+&AtClient
+Procedure GoodsTableQuantityOnChange(Item)
+	OnChangeSum();
+EndProcedure
+
+&AtClient
+Procedure GoodsTablePriceOnChange(Item)
+	OnChangeSum();
+EndProcedure
+
 // @strict-types
 
 
@@ -33,6 +44,13 @@
 
 #Region Private
 
-// Enter code here.
+&AtClient
+Procedure OnChangeSum()
+	
+	TD = ThisForm.Items.GoodsTable.CurrentData;
+	TD.Sum = TD.Quantity * TD.Price;
+	
+	
+EndProcedure 
 
 #EndRegion
