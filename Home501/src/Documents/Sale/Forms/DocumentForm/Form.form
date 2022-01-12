@@ -219,6 +219,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Object.GoodsTable.Quantity</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>GoodsTableQuantityOnChange</name>
+      </handlers>
       <extendedTooltip>
         <name>GoodsTableQuantityExtendedTooltip</name>
         <id>28</id>
@@ -269,6 +273,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Object.GoodsTable.Price</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>GoodsTablePriceOnChange</name>
+      </handlers>
       <extendedTooltip>
         <name>GoodsTablePriceExtendedTooltip</name>
         <id>31</id>
