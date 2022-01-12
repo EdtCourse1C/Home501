@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="523dc677-3aee-470c-a00e-89a3869e8f51">
+  <name>Home501</name>
+  <synonym>
+    <key>en</key>
+    <value>Home501</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4fb7d46f-f6a7-478f-9c33-af325c436cea"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="53a544cf-a76c-4e9f-ab21-39e612b2412b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="61329acc-2d99-4c0b-a2e8-653a20739627"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6c17c2a9-f4df-4c58-9216-22f2c21e613a"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0587d954-254b-43a7-b699-f8e601e2cb8f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="fa22ec0e-3d33-4876-badc-f3723dec1e62"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="7ed30bd8-4684-420e-a4c1-b003bc3f4bf3"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <languages uuid="fa826961-b6e7-4e33-9aad-fb2e2cd460b9">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <subsystems>Subsystem.Sale</subsystems>
+  <definedTypes>DefinedType.Numbers</definedTypes>
+  <catalogs>Catalog.Goods</catalogs>
+  <documents>Document.Sale</documents>
+</mdclass:Configuration>

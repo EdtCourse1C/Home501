@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4251575a-e4db-4a99-846e-384f36e0e601">
+  <producedTypes>
+    <objectType typeId="457006ad-2416-47d0-8126-ee3fe115fa80" valueTypeId="d3086f0a-5ed6-4b24-9318-785e1e4101a3"/>
+    <refType typeId="8bd9cc24-df88-4bc1-b327-ff0f18fd367f" valueTypeId="f8e3fd58-1d6a-4e6c-a5bc-d5951bc5e7aa"/>
+    <selectionType typeId="f4d6c1e7-b03e-4921-8928-04781947d1a4" valueTypeId="7a263a27-7856-4a6c-a269-37a90f0f8198"/>
+    <listType typeId="a0ec1ae4-723c-4992-8c6d-3964e42b37e1" valueTypeId="f8f2f484-7732-426e-8412-171feb014246"/>
+    <managerType typeId="8ddff3cd-9308-4a11-92ee-4dbcba17a7be" valueTypeId="8069688e-0315-4146-bd11-1a457860b329"/>
+  </producedTypes>
+  <name>Sale</name>
+  <synonym>
+    <key>en</key>
+    <value>Sale</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Sale.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Sale.Form.DocumentForm</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="84c77ec8-8991-422b-a071-e6e6b3227ab7">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="a910f9c0-cd5b-4722-9f83-385cb21291b5">
+    <producedTypes>
+      <objectType typeId="c0739d31-477c-4820-8545-5fe3126ac0d1" valueTypeId="43388875-400b-44b8-ab14-ad1d433c8029"/>
+      <rowType typeId="c2abb8d9-b142-430d-a562-dc6ee9721ccb" valueTypeId="013c49bc-8bae-4a2f-906f-8b42593361a8"/>
+    </producedTypes>
+    <name>GoodsTable</name>
+    <synonym>
+      <key>en</key>
+      <value>Goods table</value>
+    </synonym>
+    <attributes uuid="cfb60831-04b5-448b-8e28-6e7755f4569f">
+      <name>Good</name>
+      <synonym>
+        <key>en</key>
+        <value>Good</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Goods</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6c85e72b-0189-4aaa-aa79-035233d88899">
+      <name>Quantity</name>
+      <synonym>
+        <key>en</key>
+        <value>Quantity</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Numbers</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2306a2ae-9bc4-41f3-af28-230e1c7b08fe">
+      <name>Price</name>
+      <synonym>
+        <key>en</key>
+        <value>Price</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Numbers</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2882af64-30a4-4171-8737-6b1a1613b438">
+      <name>Sum</name>
+      <synonym>
+        <key>en</key>
+        <value>Sum</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Numbers</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

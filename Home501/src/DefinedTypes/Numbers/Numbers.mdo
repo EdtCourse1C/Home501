@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12c0db21-cd7a-45ec-8a9a-3ef79e700404">
+  <producedTypes>
+    <containerType typeId="e50e7405-5dda-4598-9408-7bf6cb149f68" valueTypeId="823a4e33-751f-4b78-ad67-a2e1ef8eeb7d"/>
+  </producedTypes>
+  <name>Numbers</name>
+  <synonym>
+    <key>en</key>
+    <value>Numbers</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>
